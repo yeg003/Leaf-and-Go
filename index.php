@@ -77,6 +77,11 @@
     </div>
 </div>
 
+<div id="recent-work">
+    <h3 class="header-text">Our Services</h3>   
+    <img src="<?php echo get_theme_file_uri('/images/divider-img.png');?>" alt="">
+</div>
+
 
 
 
