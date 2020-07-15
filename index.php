@@ -1,7 +1,7 @@
 <?php get_header();?>
 
 <body>
-<div class="hero">
+<div id="hero">
     <img src="<?php echo get_theme_file_uri("/images/hero-img.png");?>" alt="Hero image">
     <div class="hero-wrapper">
         <p class="banner">The Best Landscaping in South Florida</p>
@@ -15,10 +15,10 @@
     </div>
 </div>
 
-<div class="why-choose-us">
-    <h3>Why Choose Us?</h3>
+<div id="why-choose-us">
+    <h3 class= "header-text">Why Choose Us?</h3>
     <img src="<?php echo get_theme_file_uri( '/images/divider-img.png' )?>" alt="divider image">
-    <p class="why-choose-us-text">Every client is very important to us and we always take care of them seriously.</p>
+    <p class="sub-header-text">Every client is very important to us and we always take care of them seriously.</p>
     <div class="why-choose-us-box-wrapper">
         <div class="why-choose-us-box1 why-content">
             <i class="fa fa-globe" aria-hidden="true"></i>
@@ -43,7 +43,7 @@
     </div>
 </div>
 
-<div class="cta-section">
+<div id="cta-section">
     <div class="cta-left">
         <h2>Have Problem with your Gardening?</h2>
         <p>Sed orci dolor, pulvinar nec luctus a, malesuada ac nisl. Aliquam eleifend et dui et suscipit. Nam semper accumsan ante, ac dapibus urna dapibus et.</p>
@@ -54,6 +54,28 @@
     </div>
 </div>
 
+<div id="our-services">
+    <h3 class="header-text">Our Services</h3>
+    <img src="<?php echo get_theme_file_uri("/images/divider-img.png");?>" alt="">
+    <p class="sub-header-text">Every client is very important to us and we always take care of them seriously.</p>
+    <div class="services-box-wrapper">
+        <div class="service-box1">
+            <img src="<?php echo get_theme_file_uri('/images/services-img-1.jpg')?>" alt="">
+            <h4 class="service-text">Landscape Design</h4>
+            <p class="sub-header-text">Dolor sit amet dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod.</p>
+        </div>
+        <div class="service-box2">
+            <img src="<?php echo get_theme_file_uri('/images/services-img-2.jpg');?>" alt="">
+            <h4 class="service-text">Planting & Removal</h4>
+            <p class="sub-header-text">Dolor sit amet dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod.</p>
+        </div>
+        <div class="service-box3">
+        <img src="<?php echo get_theme_file_uri('/images/services-img-3.jpg')?>;" alt="">
+            <h4 class="service-text">Garden Care</h4>
+            <p class="sub-header-text">Dolor sit amet dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod.</p>
+        </div>
+    </div>
+</div>
 
 
 

@@ -5,6 +5,18 @@ Description: Landscaping theme
 Version: 1.0    
 */
 
+/*----- Global ------*/
+.header-text{
+    font-size: 28px;
+    color: #222;
+}
+
+.sub-header-text{
+        color: #999;    
+        font-size: 15px;
+}
+
+
 /*----- Header ------*/
 body{
     padding: 0;
@@ -64,10 +76,8 @@ body{
 }
 
 /*----- Hero Section ------*/
-.hero{
 
-}
-.hero img{
+#hero img{
     width: 100%;
     height: auto;
     background-position: center;
@@ -141,19 +151,12 @@ body{
 
 /*----- Why Choose Us Section ------*/
 
-.why-choose-us{
+#why-choose-us{
     text-align: center;
     margin-top: 50px;
 }
-.why-choose-us-text{
-    color: #999;    
-    font-size: 15px;
-}
-.why-choose-us h3{
-    font-size: 28px;
-    color: #222;
-}
-.why-choose-us img{
+
+#why-choose-us img{
     width: 76px;
 }
 .why-choose-us-box-wrapper{
@@ -180,7 +183,7 @@ body{
 
 /*----- Call to Action Section ------*/
 
-.cta-section{
+#cta-section{
     max-height: 340px;
     background-image: url('./images/cta-bg-img.jpg');
     background-size: cover;
@@ -219,4 +222,31 @@ body{
 
 .cta-right img{
     margin-top: -50px ;
+}
+
+
+/*----- Our Services Section ------*/
+
+#our-services{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.services-box-wrapper{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-box1, .service-box2, .service-box3{
+    max-width: 33.3%;
+}  
+
+.service-box1 img, .service-box2 img, .service-box3 img{
+    width: 350px;
+    border-radius: 3px;
+}
+
+.service-text{
+    font-size: 19px;
 }
