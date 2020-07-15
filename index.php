@@ -47,9 +47,15 @@
     <div class="cta-left">
         <h2>Have Problem with your Gardening?</h2>
         <p>Sed orci dolor, pulvinar nec luctus a, malesuada ac nisl. Aliquam eleifend et dui et suscipit. Nam semper accumsan ante, ac dapibus urna dapibus et.</p>
+        <a class= "cta-btn"href="#">Get Free Quote</a>
     </div>
     <div class="cta-right">
         <img src="<?php echo get_theme_file_uri('/images/cta-img.png')?>;" alt="">
     </div>
 </div>
+
+
+
+
+
 <?php get_footer();?>

@@ -181,20 +181,42 @@ body{
 /*----- Call to Action Section ------*/
 
 .cta-section{
-    max-height: 500px;
+    max-height: 340px;
     background-image: url('./images/cta-bg-img.jpg');
+    background-size: cover;
+    background-position: center;
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
     align-items: center;
     color: #fff;
+    margin-top: 100px;
+   
+
 }
 
 .cta-left{
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .cta-left h2{
     color: #8ca207;
-    font-size: 25px;
+    font-size: 30px;
+    
+}
+
+.cta-left p{
+    padding-bottom: 30px;
+}
+
+.cta-btn{
+    color: #fff;
+    text-decoration: none;
+    background-color: #8ca207;
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+
+.cta-right img{
+    margin-top: -50px ;
 }
