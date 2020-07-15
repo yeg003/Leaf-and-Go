@@ -78,8 +78,24 @@
 </div>
 
 <div id="recent-work">
-    <h3 class="header-text">Our Services</h3>   
+    <h3 class="header-text-dark">Recent Work</h3>   
     <img src="<?php echo get_theme_file_uri('/images/divider-img.png');?>" alt="">
+    <p class="sub-header-text">Every client is very important to us and we always take care of them seriously.</p>
+    <div class="recent-work-box-container">
+        <div class="recent-work-box1">
+            <img class ="recent-work-img" src="<?php echo get_theme_file_uri('/images/gallery-1.jpg'); ?>" alt="">
+        </div>
+        <div class="recent-work-box2">
+        <img class ="recent-work-img"src="<?php echo get_theme_file_uri('/images/gallery-2.jpg'); ?>" alt="">
+        </div>
+        <div class="recent-work-box3">
+        <img class ="recent-work-img" src="<?php echo get_theme_file_uri('/images/gallery-3.jpg'); ?>" alt="">
+        </div>
+        <div class="recent-work-box4">
+        <img class ="recent-work-img" src="<?php echo get_theme_file_uri('/images/gallery-4.jpg'); ?>" alt="">
+        </div>
+    </div>
+    <a class="recent-work-btn"href="#">View More Work</a>
 </div>
 
 

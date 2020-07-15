@@ -9,6 +9,13 @@ Version: 1.0
 .header-text{
     font-size: 28px;
     color: #222;
+    padding-bottom: 10px;
+}
+
+.header-text-dark{
+    font-size: 28px;
+    color: #fff;
+    padding-bottom: 10px;
 }
 
 .sub-header-text{
@@ -16,9 +23,8 @@ Version: 1.0
         font-size: 15px;
 }
 
-
 /*----- Header ------*/
-body{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -58,6 +64,7 @@ body{
 
 .header-links a:hover{
     color: #8ca207;
+    font-weight: bold;
 }
 
 
@@ -72,7 +79,8 @@ body{
 }
 
 .header-btn a:hover{
-    color: black;
+    background-color: #222;
+    color: #8ca207;
 }
 
 /*----- Hero Section ------*/
@@ -133,7 +141,7 @@ body{
     font-size: 18px;
 }
 .hero-btn-left:hover{
-    color: #8ca207;
+    color:#8ca207;
 }
 .hero-btn-right {
     color: #fff;
@@ -194,8 +202,6 @@ body{
     align-items: center;
     color: #fff;
     margin-top: 100px;
-   
-
 }
 
 .cta-left{
@@ -220,6 +226,11 @@ body{
     border-radius: 3px;
 }
 
+.cta-btn:hover{
+    background-color: #fff;
+    color: #8ca207;
+}
+
 .cta-right img{
     margin-top: -50px ;
 }
@@ -228,8 +239,10 @@ body{
 /*----- Our Services Section ------*/
 
 #our-services{
-    margin-top: 50px;
+    padding: 50px 0;
     text-align: center;
+    margin: 0 auto;
+    max-width: 1140px;
 }
 
 .services-box-wrapper{
@@ -254,5 +267,40 @@ body{
 /*----- Recent Work Section ------*/
 
 #recent-work{
+    padding: 50px 0;  
+    background-color: #222;
+    color:#fff;
+    text-align: center;
     
+}
+
+.recent-work-box-container{
+    display: flex;
+    justify-content: space-around;  
+    padding: 50px 0;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.recent-work-box1, .recent-work-box2, .recent-work-box3, .recent-work-box4{
+    max-width: 25%;
+}
+
+.recent-work-img{
+    width: 250px;
+}
+
+.recent-work-btn{
+    text-emphasis: none;
+    background-color: #8ca207;
+    border-radius: 3px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.recent-work-btn:hover{
+    background-color: #fff;
+    color: #8ca207;
 }
