@@ -305,6 +305,7 @@ Version: 1.0
     color: #8ca207;
 }
 
+/*----- Testimonial Section ------*/
 
 #testimonial{
     padding: 50px 0;
@@ -312,7 +313,6 @@ Version: 1.0
     margin: 0 auto;
     max-width: 1140px;
 }
-
 
 .testimonial-container{
     display: flex;
@@ -342,4 +342,26 @@ Version: 1.0
 #testimonial h5{
     color: #222;
     font-weight: 400;
+}
+
+/*----- Footer Section ------*/
+
+#footer{
+    padding: 50px 0;
+    background-color: #222;
+    color: #fff;
+}
+
+.footer-container{
+    max-width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.footer-box1 img{
+    height: 100px;
+    width: 100px;
 }
