@@ -98,6 +98,16 @@
     <a class="recent-work-btn"href="#">View More Work</a>
 </div>
 
+<div id="testimonial">
+    <h3 class="header-text">What Our Customers Are Saying</h3>   
+    <img src="<?php echo get_theme_file_uri('/images/divider-img.png');?>" alt="">
+    <div class="testimonial-container">
+        <img src="<?php echo get_theme_file_uri("/images/team-img1.jpg"); ?>" alt="">
+        <p> Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam </p>
+    </div>
+    <h4>Jane Doe</h4>
+    <h5>Business Owner</h5>
+</div>
 
 
 

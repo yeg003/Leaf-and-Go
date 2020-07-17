@@ -21,6 +21,7 @@ Version: 1.0
 .sub-header-text{
         color: #999;    
         font-size: 15px;
+        padding-bottom: 20px;
 }
 
 /*----- Header ------*/
@@ -271,7 +272,6 @@ Version: 1.0
     background-color: #222;
     color:#fff;
     text-align: center;
-    
 }
 
 .recent-work-box-container{
@@ -303,4 +303,43 @@ Version: 1.0
 .recent-work-btn:hover{
     background-color: #fff;
     color: #8ca207;
+}
+
+
+#testimonial{
+    padding: 50px 0;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+
+.testimonial-container{
+    display: flex;
+    color: #000;
+    max-width: 700px;
+    margin: 0 auto;
+   align-items: center;
+   padding-top: 60px;
+}
+
+.testimonial-container img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.testimonial-container p{
+    padding-left: 20px;
+    text-align: justify;
+}
+
+
+#testimonial h4{
+    color: #8ca207;
+}
+
+#testimonial h5{
+    color: #222;
+    font-weight: 400;
 }
