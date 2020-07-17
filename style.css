@@ -361,7 +361,23 @@ Version: 1.0
     justify-content: space-around;
 }
 
+.footer-box1 {
+    max-width: 33%;
+}
 .footer-box1 img{
     height: 100px;
     width: 100px;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-links i{
+    color: #8ca207;
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid #8ca207;
 }
