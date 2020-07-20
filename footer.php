@@ -2,7 +2,7 @@
     <div id="footer">
         <div class="footer-container">
             <div class="footer-box1">
-                <img src="<?php echo get_theme_file_uri("/images/leaf-go-logo.png");?>" alt="Footer logo">
+                <img src="<?php echo get_theme_file_uri("/images/leaf-go-logo-footer.png");?>" alt="Footer logo">
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
                 <div class="social-links">
                         <a href="#">
@@ -20,7 +20,12 @@
                 </div>
 
             </div>
-            <div class="footer-box2">2</div>
+            <div class="footer-box2">
+                <h2>Contact Info</h2>
+                <div class="footer-box2-text">
+                    <p></p>
+                </div>
+            </div>
             <div class="footer-box3">3</div>
         </div>
 

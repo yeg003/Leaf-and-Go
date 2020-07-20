@@ -363,21 +363,30 @@ Version: 1.0
 
 .footer-box1 {
     max-width: 33%;
+    color: #999;
 }
 .footer-box1 img{
     height: 100px;
     width: 100px;
+    padding-bottom: 20px;
+}
+
+.footer-box1 p{
+    padding-bottom: 20px;
 }
 
 .social-links{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .social-links i{
-    color: #8ca207;
+    color: #fff;
     font-size: 25px;
-    padding: 10px;
-    border: 1px solid #8ca207;
+    padding: 15px;
+    background-color: #8ca207;
+    border-radius: 3px;
+    margin: 10px;
 }
