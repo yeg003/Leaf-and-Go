@@ -42,8 +42,20 @@
             <div class="footer-box3">
                 <h2 class="footer-header">Opening Hours</h2>
                 <div class="footer-box3-text">
-                    <p class="days">Mon-Sat: </p>
-                    <p> 123 Main St, Miami, Fl 33130</p>
+                    <p class="text-padding">Mon-Thu: </p>
+                    <p> 08:00 - 5:00</p>
+                </div>
+                <div class="footer-box3-text">
+                    <p class="text-padding">Fri: </p>
+                    <p> 9:00 - 6:00</p>
+                </div>
+                <div class="footer-box3-text">
+                    <p class="text-padding">Sat: </p>
+                    <p> 08:00 - 4:00</p>
+                </div>
+                <div class="footer-box3-text">
+                    <p class="text-padding">Sun: </p>
+                    <p> Closed</p>
                 </div>
             </div>
         </div>

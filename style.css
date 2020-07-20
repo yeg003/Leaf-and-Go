@@ -405,7 +405,6 @@ Version: 1.0
 .footer-box2-text{
     display: flex;
     padding-top: 20px;
-    padding-right: 30px;
    
 }
  
@@ -415,4 +414,9 @@ Version: 1.0
 
 .footer-box3{
     color: #999;
+}
+
+.footer-box3-text{
+    display: flex;
+    padding-top: 20px;
 }
