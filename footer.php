@@ -21,12 +21,31 @@
 
             </div>
             <div class="footer-box2">
-                <h2>Contact Info</h2>
+                <h2 class="footer-header">Contact Info</h2>
                 <div class="footer-box2-text">
-                    <p></p>
+                    <p class="text-padding">Adress: </p>
+                    <p> 123 Main St, Miami, Fl 33130</p>
+                </div>
+                <div class="footer-box2-text">
+                    <p class="text-padding">Office: </p>
+                    <p> (123) 123 1234</p>
+                </div>
+                <div class="footer-box2-text">
+                    <p class="text-padding">Fax: </p>
+                    <p> (123) 123 1234</p>
+                </div>
+                <div class="footer-box2-text">
+                    <p class="text-padding">Email: </p>
+                    <p> leaf&go@gmail.com</p>
                 </div>
             </div>
-            <div class="footer-box3">3</div>
+            <div class="footer-box3">
+                <h2 class="footer-header">Opening Hours</h2>
+                <div class="footer-box3-text">
+                    <p class="days">Mon-Sat: </p>
+                    <p> 123 Main St, Miami, Fl 33130</p>
+                </div>
+            </div>
         </div>
 
     </div>

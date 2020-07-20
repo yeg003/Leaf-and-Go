@@ -359,6 +359,7 @@ Version: 1.0
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    align-items: center;
 }
 
 .footer-box1 {
@@ -366,9 +367,8 @@ Version: 1.0
     color: #999;
 }
 .footer-box1 img{
-    height: 100px;
-    width: 100px;
-    padding-bottom: 20px;
+    height: 150px;
+    width: 150px;
 }
 
 .footer-box1 p{
@@ -389,4 +389,30 @@ Version: 1.0
     background-color: #8ca207;
     border-radius: 3px;
     margin: 10px;
+}
+
+.footer-box2{
+    color: #999;
+}
+
+.footer-header{
+    border-bottom: 1px solid #8ca207;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+
+.footer-box2-text{
+    display: flex;
+    padding-top: 20px;
+    padding-right: 30px;
+   
+}
+ 
+.text-padding{
+    padding-right: 5px;
+}
+
+.footer-box3{
+    color: #999;
 }
