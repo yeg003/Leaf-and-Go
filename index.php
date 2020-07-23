@@ -1,13 +1,14 @@
 <?php get_header();?>
-<?php /*if(have_posts() )
 
-    while(have_posts() ): the_post();?>
-        <h3><?php the_title();?></h3>
-       <p> <?php the_content(); ?></p>
+<?php 
+    if(have_posts() ):
+        while(have_posts() ): the_post();?>
+            <h3><?php the_title();?></h3>
+            <p> <?php the_content();?></p>
 <?php  endwhile;
-endif;*/
+    endif;
 ?>
-<body>
+
 <div id="hero">
     <img src="<?php echo get_theme_file_uri("/images/hero-img.png");?>" alt="Hero image">
     <div class="hero-wrapper">

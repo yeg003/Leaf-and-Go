@@ -363,7 +363,7 @@ Version: 1.0
 }
 
 .footer-box1 {
-    max-width: 33%;
+    max-width: 25%;
     color: #999;
 }
 .footer-box1 img{
@@ -392,6 +392,7 @@ Version: 1.0
 }
 
 .footer-box2{
+    max-width: 25%;
     color: #999;
 }
 
@@ -413,10 +414,24 @@ Version: 1.0
 }
 
 .footer-box3{
+    max-width: 25%;
     color: #999;
 }
 
 .footer-box3-text{
     display: flex;
     padding-top: 20px;
+}
+
+.footer-box4 {
+    max-width: 25%;
+}
+
+.footer-box4 a {
+    color:#999;
+    text-decoration: none;
+}
+.footer-box4 ul{
+    list-style: none;
+    color:#333;
 }

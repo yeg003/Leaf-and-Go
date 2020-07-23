@@ -58,9 +58,17 @@
                     <p> Closed</p>
                 </div>
             </div>
-        </div>
 
+            <div class="footer-box4">
+                <?php 
+                    wp_nav_menu( array( 
+                        'theme_location' => 'secondary' ) ); 
+                ?>
+            </div>
+
+        </div>
     </div>
+
 
 </footer>
 <?php wp_footer(); ?>

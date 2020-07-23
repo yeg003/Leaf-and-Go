@@ -8,7 +8,9 @@
     add_action("wp_enqueue_scripts", "leafgo_files");
 
     function wpb_custom_new_menu() {
+        add_theme_support( 'menus' );
         register_nav_menu('my-custom-menu',__( 'My Custom Menu' ));
+        register_nav_menu('secondary',__( 'Footer Menu' ));
       }
       add_action( 'init', 'wpb_custom_new_menu' );
 ?>
