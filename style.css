@@ -483,5 +483,13 @@ Version: 1.0
 #about-sub-text{
     padding-top:0 ;
     font-size: 15px;
+}
+
+#team-section{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.team-container{
 
 }

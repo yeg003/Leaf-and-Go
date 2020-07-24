@@ -27,18 +27,26 @@
             <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus.</p>
         </div>
     </div>
-    <div id="cta-section">
-    <div class="cta-left">
-        <h2>Have Problem with your Gardening?</h2>
-        <p>Sed orci dolor, pulvinar nec luctus a, malesuada ac nisl. Aliquam eleifend et dui et suscipit. Nam semper accumsan ante, ac dapibus urna dapibus et.</p>
-        <a class= "cta-btn"href="#">Get Free Quote</a>
-    </div>
-    <div class="cta-right">
-        <img src="<?php echo get_theme_file_uri('/images/cta-img.png')?>;" alt="">
-    </div>
-</div>
 
-   
+    <div id="cta-section">
+        <div class="cta-left">
+            <h2>Have Problem with your Gardening?</h2>
+            <p>Sed orci dolor, pulvinar nec luctus a, malesuada ac nisl. Aliquam eleifend et dui et suscipit. Nam semper accumsan ante, ac dapibus urna dapibus et.</p>
+            <a class= "cta-btn"href="#">Get Free Quote</a>
+        </div>
+        <div class="cta-right">
+            <img src="<?php echo get_theme_file_uri('/images/cta-img.png')?>;" alt="">
+        </div>
+    </div>
+
+    <div id="team-section">
+        <h3 class= "header-text center">Meet Our Team</h3>
+        <img class ="center"src="<?php echo get_theme_file_uri( '/images/divider-img.png' )?>" alt="divider image">
+        
+        <div class="team-container">
+            
+        </div>
+    </div>
 </div>
 
 
