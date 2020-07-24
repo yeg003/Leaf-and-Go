@@ -445,3 +445,43 @@ Version: 1.0
 .footer-box4 li{
     padding: 10px;
 }
+
+#about-section{
+    padding: 50px 0;
+}
+
+.about-title{
+    text-align: center;
+}
+
+
+.about-container{
+    max-width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px ;
+}
+
+.about-left img{
+    width: 540px;
+    height: 331px;
+}
+
+.about-right{
+    max-width: 50%;
+    text-align: start;
+}
+.about-right p{ 
+    padding: 10px 0;
+    color: #999;
+}
+
+#about-sub-text{
+    padding-top:0 ;
+    font-size: 15px;
+
+}
