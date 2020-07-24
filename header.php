@@ -12,7 +12,7 @@
     <header>
         <div class="navbar">
                 <div class="logo">
-                    <a href="index.php"><img src="<?php echo get_theme_file_uri("/images/leaf-go-logo.png");?>" alt="Logo"></a>
+                    <a href="/page-home"><img src="<?php echo get_theme_file_uri("/images/leaf-go-logo.png");?>" alt="Logo"></a>
                     
                 </div>
     <?php
