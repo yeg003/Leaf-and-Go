@@ -491,5 +491,10 @@ Version: 1.0
 }
 
 .team-container{
+    padding-top: 50px;
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-around;
 
 }

@@ -44,7 +44,18 @@
         <img class ="center"src="<?php echo get_theme_file_uri( '/images/divider-img.png' )?>" alt="divider image">
         
         <div class="team-container">
-            
+            <div class="team-box1">
+                <img src="<?php get_theme_file_uri('/images/team01.jpg' ) ?>" alt="team1">
+            </div>
+            <div class="team-box2">
+                <img src="<?php get_theme_file_uri('/images/team01.jpg' ) ?>" alt="team1">
+            </div>
+            <div class="team-box3">
+                <img src="<?php get_theme_file_uri('/images/team01.jpg' ) ?>" alt="team1">
+            </div>
+            <div class="team-box4">
+                <img src="<?php get_theme_file_uri('/images/team01.jpg' ) ?>" alt="team1">
+            </div>
         </div>
     </div>
 </div>
