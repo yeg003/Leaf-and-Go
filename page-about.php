@@ -52,20 +52,20 @@
             </div>
             <div class="team-box">
                 <img src="<?php echo get_theme_file_uri('/images/team02.jpg' ) ?>" alt="team1">
-                <h1 class="member-title">Jon Doe</h1>
-                <p class="member-sub-title">CEO & Founder</p>
+                <h1 class="member-title">DANIEL DOEL</h1>
+                <p class="member-sub-title">Landscaper Specialist</p>
                 <p class="member-text">Dolor sit amet, dolor gravida, placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod.</p>
             </div>
             <div class="team-box">
                 <img src="<?php echo get_theme_file_uri('/images/team03.jpg' ) ?>" alt="team1">
-                <h1 class="member-title">Jon Doe</h1>
-                <p class="member-sub-title">CEO & Founder</p>
+                <h1 class="member-title">Jane Doe</h1>
+                <p class="member-sub-title">Coordinator Team</p>
                 <p class="member-text">Dolor sit amet, dolor gravida, placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod.</p>
             </div>
             <div class="team-box">
                 <img src="<?php echo get_theme_file_uri('/images/team04.jpg' ) ?>" alt="team1">
-                <h1 class="member-title">Jon Doe</h1>
-                <p class="member-sub-title">CEO & Founder</p>
+                <h1 class="member-title">Thomas Doe</h1>
+                <p class="member-sub-title">Landscaper Specialist</p>
                 <p class="member-text">Dolor sit amet, dolor gravida, placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod.</p>
             </div>
         </div>

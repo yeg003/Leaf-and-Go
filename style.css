@@ -452,6 +452,7 @@ Version: 1.0
 
 .about-title{
     text-align: center;
+    margin: 50px 0;
 }
 
 
@@ -511,5 +512,24 @@ Version: 1.0
     max-width: 100%;
     height: auto;
     padding: 25px;
+}
 
+.member-title{
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: #222;
+}
+
+.member-sub-title{
+    font-size: 14px;
+    color: #8ca207;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.member-text{
+    text-align: center;
+    padding: 0 10px 20px;
+    color: #999;
 }
