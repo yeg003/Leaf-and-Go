@@ -259,10 +259,14 @@ Version: 1.0
 .service-box1 img, .service-box2 img, .service-box3 img{
     width: 350px;
     border-radius: 3px;
+    padding-bottom: 10px;
 }
 
 .service-text{
-    font-size: 19px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: #222;
 }
 
 /*----- Recent Work Section ------*/
@@ -532,4 +536,24 @@ Version: 1.0
     text-align: center;
     padding: 0 10px 20px;
     color: #999;
+}
+
+#services-section{
+    padding-top: 50px;
+}
+
+.services-title{
+    text-align: center;
+}
+
+.services-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.service-box{
+    max-width: 33.3%;
 }

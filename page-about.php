@@ -11,7 +11,7 @@
 
 <div id="about-section">
     <div class="about-title">
-        <h3 class= "header-text center">About Us</h3>
+        <h3 class= "header-text">About Us</h3>
         <img class ="center"src="<?php echo get_theme_file_uri( '/images/divider-img.png' )?>" alt="divider image">
     </div>
 
